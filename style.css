@@ -190,7 +190,7 @@ section .title::after {
 /* home section styling */
 .home {
 	display: flex;
-	background: url("https://img3.wallspic.com/previews/8/9/1/4/6/164198/164198-phoenix_bird_with_girl-birds-phoenix-firebird-lighting-x750.jpg")
+	background: url("164198-phoenix_bird_with_girl-birds-phoenix-firebird-lighting.jpg")
 		no-repeat center;
 	height: 100vh;
 	color: whitesmoke;
@@ -247,7 +247,7 @@ section .title::after {
 	background: none;
 }
 
-.h3,
+/* .h3,
 h3 {
 	text-align: center;
 	animation: reveal 3000ms ease-in-out forwards 200ms,
@@ -269,7 +269,7 @@ h3 {
 	40% {
 		text-shadow: 0 0 8px #fff;
 	}
-}
+} */
 
 /* about section styling */
 
