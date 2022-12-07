@@ -8,10 +8,6 @@
 	text-decoration: none;
 }
 
-/* html {
-	scroll-behavior: smooth;
-} */
-
 /* custom scroll bar */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -116,7 +112,7 @@ section .title::after {
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar .logo a span {
@@ -142,9 +138,10 @@ section .title::after {
 	transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
-    color: rgb(65, 32, 44);
+.navbar .menu li a:hover {
+	color: rgb(65, 32, 44);
 }
+
 .navbar.sticky .menu li a:hover {
 	color: #fff;
 }
@@ -190,8 +187,7 @@ section .title::after {
 /* home section styling */
 .home {
 	display: flex;
-	background: url("164198-phoenix_bird_with_girl-birds-phoenix-firebird-lighting.jpg")
-		no-repeat center;
+	background: url("164198-phoenix_bird_with_girl-birds-phoenix-firebird-lighting.jpg") no-repeat center;
 	height: 100vh;
 	color: whitesmoke;
 	min-height: 500px;
@@ -246,32 +242,6 @@ section .title::after {
 	color: rgb(65, 32, 44);
 	background: none;
 }
-
-/* .h3,
-h3 {
-	text-align: center;
-	animation: reveal 3000ms ease-in-out forwards 200ms,
-		glow 2500ms linear infinite 2000ms;
-	animation-delay: 1s;
-}
-
-@keyframes reveal {
-	80% {
-		letter-spacing: 8px;
-	}
-
-	100% {
-		background-size: 300% 300%;
-	}
-}
-
-@keyframes glow {
-	40% {
-		text-shadow: 0 0 8px #fff;
-	}
-} */
-
-/* about section styling */
 
 .about .title::after {
 	content: "who i am";
@@ -392,7 +362,7 @@ h3 {
 
 
 
- .portfolio .portfolio-content a {
+.portfolio .portfolio-content a {
 	display: inline-block;
 	background: rgb(65, 32, 44);
 	color: #fff;
@@ -410,51 +380,42 @@ h3 {
 .portfolio .portfolio-content a:hover {
 	color: rgb(65, 32, 44);
 	background: none;
-} */
-
-.carousel{
-    box-shadow: 2px 2px 5px #0000004d;
-    height: 1000px;
-    width: 900px;
-	overflow: hidden;
 }
 
 .image-container {
-    display: flex;
-	width: 5px;
-    transform: translateX(0);
-    transition: transform 0.5s ease-in;
+	display: flex;
+	transform: translateX(0);
+	transition: transform 0.5s ease-in;
 }
 
-.buttons-container{
-    display: flex;
-    justify-content: space-between;
+.buttons-container {
+	display: flex;
+	justify-content: space-between;
 }
 
-.btn{
-    background-color: whitesmoke;
-    color: #fff;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-    width: 49.5%;
+.btn {
+	background-color: whitesmoke;
+	color: #fff;
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+	width: 49.5%;
 }
 
-.btn:hover{
-    opacity: 0.9;
+.btn:hover {
+	opacity: 0.9;
 }
 
-.btn:focus{
-    outline: none;
+.btn:focus {
+	outline: none;
 }
-
-
 
 /* contact section styling */
 .contact .title::after {
 	content: "get in touch";
 	color: rgb(65, 32, 44);
 }
+
 .contact .contact-content .column {
 	width: calc(50% - 30px);
 }
@@ -575,8 +536,8 @@ h3 {
 .fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
-.fa-twitch:hover {
-	color: #e16f53 ;
+.fa-github:hover {
+	color: #e16f53;
 }
 
 .fab {
@@ -728,3 +689,19 @@ footer span a:hover {
 		line-height: 38px;
 	}
 }
+
+@media (max-width: 500px) {
+	.home {
+		background: url(164198-phoenix_bird_with_girl-birds-phoenix-firebird-lighting.jpg)no-repeat;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-height: 1000px) {
+	.carousel {
+		width: 1px;
+	}
+	.image-container {
+	height: 24rem;
+	width: 16px;
+	}}
