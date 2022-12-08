@@ -87,3 +87,5 @@ $(document).ready(function () {
         loop: true,
     });
 });
+
+alert('Message box is still in progress! Do not write there yet!')
