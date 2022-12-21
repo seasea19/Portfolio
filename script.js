@@ -73,19 +73,14 @@ $(document).ready(function () {
         $(".navbar .menu").toggleClass("active");
         $(".menu-btn i").toggleClass("active");
     });
+});
 
     var typed = new Typed(".typing-2", {
-        strings: [
-            "Generation USA Student",
-            "Entrepreneur",
-            "Cybersecurity Enthusiast",
-            "Hacking Learner",
-            "soon to be a web developer",
-        ],
+        strings: ["Generation USA Student", "Entrepreneur", "Cybersecurity Enthusiast", "Hacking Learner", " Web Developer", "IT Lover", "Data Analyst Enthusiat"],
         typeSpeed: 100,
         backSpeed: 60,
-        loop: true,
+        loop: true
     });
-});
+
 
 alert('Message box is still in progress! Do not write there yet!')
