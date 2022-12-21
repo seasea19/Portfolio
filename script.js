@@ -80,7 +80,9 @@ $(document).ready(function () {
             "Entrepreneur",
             "Cybersecurity Enthusiast",
             "Hacking Learner",
-            "soon to be a web developer",
+            "Web developer",
+            "IT Lover"
+            "Data Analyst"
         ],
         typeSpeed: 100,
         backSpeed: 60,
