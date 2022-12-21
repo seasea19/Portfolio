@@ -81,8 +81,6 @@ $(document).ready(function () {
             "Cybersecurity Enthusiast",
             "Hacking Learner",
             "Web developer",
-            "IT Lover",
-            "Data Analyst",
         ],
         typeSpeed: 100,
         backSpeed: 60,
