@@ -74,7 +74,6 @@ $(document).ready(function () {
         $(".menu-btn i").toggleClass("active");
     });
 });
-
     var typed = new Typed(".typing-2", {
         strings: ["Generation USA Student", "Entrepreneur", "Cybersecurity Enthusiast", "Hacking Learner", " Web Developer", "IT Lover", "Data Analyst Enthusiat"],
         typeSpeed: 100,
