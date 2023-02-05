@@ -1,1 +1,1 @@
- https://seasea19.github.io/Portfolio-Website/
+https://seasea19.github.io/Portfolio/
