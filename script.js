@@ -82,4 +82,4 @@ $(document).ready(function () {
     });
 
 
-alert('Message box is still in progress! Do not write there yet!')
+alert('Message box is still in progress! Do not write there yet! Click ok to continue')
