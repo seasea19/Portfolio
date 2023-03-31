@@ -75,11 +75,11 @@ $(document).ready(function () {
     });
 });
     var typed = new Typed(".typing-2", {
-        strings: ["Generation USA Student", "Entrepreneur", "Cybersecurity Enthusiast", "Hacking Learner", " Web Developer", "IT Lover", "Data Analyst Enthusiat"],
+        strings: ["Entrepreneur", "Cybersecurity Enthusiast", "Hacking Learner", " Web Developer", "IT Lover", "Technology Lover"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
 
-alert('Message box is still in progress! Do not write there yet! Click ok to continue')
+alert('Please refrain from using the message box as it is currently undergoing maintenance. Kindly await further instructions before entering any text. Thank you for your understanding.')
